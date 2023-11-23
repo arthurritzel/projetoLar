@@ -1,4 +1,3 @@
-process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 
 async function dados(){
     var dados = await fetch("http://3.87.188.55:5000/dados", {
