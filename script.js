@@ -1,6 +1,6 @@
 
 async function dados(){
-    var dados = await fetch("http://3.87.188.55:5000/dados", {
+    var dados = await fetch("https://1fyfpe54j4.execute-api.us-east-2.amazonaws.com", {
         method: "GET"
     })
 
